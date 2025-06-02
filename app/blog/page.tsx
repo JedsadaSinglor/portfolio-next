@@ -33,8 +33,8 @@ const translations = {
 const blogPosts = [
   {
     id: 1,
-    title: "TryHackMe: Katana Walkthrough",
-    titleTh: "TryHackMe: คู่มือ Katana",
+    title: "Katana Walkthrough",
+    titleTh: "คู่มือ Katana",
     excerpt:
       "A detailed walkthrough of the Katana room on TryHackMe, covering enumeration, exploitation, and privilege escalation techniques.",
     excerptTh: "คู่มือโดยละเอียดของห้อง Katana บน TryHackMe ครอบคลุมเทคนิคการสำรวจ การโจมตี และการยกระดับสิทธิ์",
@@ -45,7 +45,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    title: "Kali คืออะไร",
+    title: "what is Kali Linux?",
     titleTh: "Kali คืออะไร",
     excerpt:
       "An introduction to Kali Linux, its features, and how it is used in penetration testing and security assessments.",

@@ -11,16 +11,16 @@ interface BlogPreviewCardProps {
 const translations = {
   en: {
     title: "Latest Writeups",
-    post1: "TryHackMe: Katana Walkthrough",
-    post2: "HackTheBox: Dawn Analysis",
+    post1: "Katana Walkthrough",
+    post2: "what is Kali Linux?",
     date1: "2 days ago",
     date2: "1 week ago",
     cta: "Read All Posts",
   },
   th: {
     title: "บทความล่าสุด",
-    post1: "TryHackMe: คู่มือ Katana",
-    post2: "HackTheBox: การวิเคราะห์ Dawn",
+    post1: "คู่มือ Katana",
+    post2: "Kali Linux คืออะไร?",
     date1: "2 วันที่แล้ว",
     date2: "1 สัปดาห์ที่แล้ว",
     cta: "อ่านบทความทั้งหมด",

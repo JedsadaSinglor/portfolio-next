@@ -75,10 +75,10 @@ export function Dock({ language, setLanguage }: DockProps) {
   return (
     <>
       <motion.div
-        initial={{ x: -100, opacity: 0 }}
+        initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.5 }}
-        className="fixed right-8 top-1/2 -translate-y-1/2 z-50"
+        className="fixed right-1 top-1/3 -translate-y-1/2 z-50"
       >
         <div className="bg-gray-100 dark:bg-gray-900 backdrop-blur-md rounded-3xl p-4 border border-gray-300 dark:border-gray-700 shadow-lg">
           <div className="flex flex-col items-center gap-4">

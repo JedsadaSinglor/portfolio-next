@@ -10,6 +10,7 @@ import { BentoCard } from "@/components/bento-card"
 import { SkillBadge } from "@/components/skill-badge"
 import { SiPython, SiJavascript, SiMysql, SiLinux, SiDocker, SiReact, SiDjango, SiMetasploit, SiCplusplus, SiTypescript, SiGnubash,SiBurpsuite,SiOwasp,SiWireshark, SiGit,SiVmware     } from "react-icons/si"
 import { FaJava } from "react-icons/fa";
+import { Dock } from "@/components/dock"
 
 const translations = {
   en: {
@@ -308,6 +309,10 @@ export default function SkillsPage() {
           </BentoCard>
         </motion.div>
       </div>
+      <Dock
+                    language={language}
+                    setLanguage={setLanguage}
+                  />
     </div>
   )
 }

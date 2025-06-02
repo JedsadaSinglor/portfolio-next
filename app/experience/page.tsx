@@ -7,6 +7,7 @@ import { ArrowLeft, Award, Calendar, MapPin, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ParticleBackground } from "@/components/particle-background"
 import { BentoCard } from "@/components/bento-card"
+import { Dock } from "@/components/dock"
 
 const translations = {
   en: {
@@ -694,6 +695,10 @@ export default function ExperiencePage() {
           </div>
         </div>
       </div>
+      <Dock
+                    language={language}
+                    setLanguage={setLanguage}
+                  />
     </div>
   )
 }

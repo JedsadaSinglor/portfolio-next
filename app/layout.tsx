@@ -11,11 +11,11 @@ export const metadata: Metadata = {
   title: "Jedsada Singlor - Data Science & Cybersecurity",
   description:
     "Portfolio of Jedsada Singlor, Data Science and Cybersecurity student specializing in ethical hacking and digital security.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
   children,
+  
 }: {
   children: React.ReactNode
 }) {

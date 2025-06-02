@@ -13,6 +13,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel"
+import { Dock } from "@/components/dock"
 
 const translations = {
   en: {
@@ -254,6 +255,10 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
+      <Dock
+              language={language}
+              setLanguage={setLanguage}
+            />
     </div>
   )
 }

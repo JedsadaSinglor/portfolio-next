@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { ParticleBackground } from "@/components/particle-background"
 import { BentoCard } from "@/components/bento-card"
+import { Dock } from "@/components/dock"
 
 const translations = {
   en: {
@@ -227,6 +228,7 @@ export default function BlogPage() {
           )}
         </div>
       </div>
+      <Dock language={language} setLanguage={setLanguage} />
     </div>
   )
 }

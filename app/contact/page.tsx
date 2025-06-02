@@ -11,6 +11,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { ParticleBackground } from "@/components/particle-background"
 import { BentoCard } from "@/components/bento-card"
+import { Dock } from "@/components/dock"
 
 const translations = {
   en: {
@@ -261,6 +262,10 @@ export default function ContactPage() {
           </motion.div>
         </div>
       </div>
+      <Dock
+                    language={language}
+                    setLanguage={setLanguage}
+                  />
     </div>
   )
 }

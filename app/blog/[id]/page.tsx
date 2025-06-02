@@ -7,6 +7,7 @@ import { ArrowLeft, Calendar, Clock, Tag, Share2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ParticleBackground } from "@/components/particle-background"
 import { BentoCard } from "@/components/bento-card"
+import { Dock } from "@/components/dock"
 
 const translations = {
   en: {
@@ -490,6 +491,10 @@ export default function BlogPostPage() {
           </motion.div>
         </BentoCard>
       </div>
+      <Dock
+                    language={language}
+                    setLanguage={setLanguage}
+                  />
     </div>
   )
 }

@@ -8,6 +8,7 @@ import { ArrowLeft, ExternalLink, Github, Calendar, Tag } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ParticleBackground } from "@/components/particle-background"
 import { BentoCard } from "@/components/bento-card"
+import { Dock } from "@/components/dock"
 const translations = {
   en: {
     title: "Projects",
@@ -262,6 +263,10 @@ export default function ProjectsPage() {
           ))}
         </div>
       </div>
+      <Dock
+                    language={language}
+                    setLanguage={setLanguage}
+                  />
     </div>
   )
 }
